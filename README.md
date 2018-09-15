@@ -8,10 +8,12 @@
 
 **your-id-list-one-gene-per-line.txt**: Input your gene ID to this file.
 
-**result.xls**: This file shows the results
+**result.xls**: This file shows the results.
 
 **msu2rap-converter.py**: Script used to convert gene ID from MSU7 to RAP.
+
 ```python3 msu2rap-converter.py your-id-list-one-gene-per-line.txt > result.xls```
 
 **rap2msu-converter.py**: Script used to convert gene ID from RAP to MSU7.
+
 ```python3 rap2msu-converter.py your-id-list-one-gene-per-line.txt > result.xls```
