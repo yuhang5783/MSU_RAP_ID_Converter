@@ -9,6 +9,9 @@ for i in open("RAP-MSU_2018-03-29.txt"):
         else:
             relation[msu[0:-2]] = rap
 
+# print header
+print("MSU", "RAP", sep="\t")
+
 for j in open("your-id-list-one-gene-per-line.txt"):
     id=j.strip()
     if id in relation.keys():

@@ -4,6 +4,9 @@ for i in open("RAP-MSU_2018-03-29.txt"):
         msu=str(i.split()[1])
         if rap!="None":
             relation[rap]=msu
+            
+# print header
+print("RAP", "MSU", sep="\t")
 
 for j in open("your-id-list-one-gene-per-line.txt"):
     id=j.strip()
