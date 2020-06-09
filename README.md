@@ -10,4 +10,4 @@
 
 **res.\*.xls**: These files shows the results.
 
-**rap_msu_converter.py**: Script used to convert gene ID between MSU7 to RAP, which can detect you ID type and convert your IDs into another type. Just make sure Python3 is in your PATH and double click your mouse. The results will stored into the "res." file.
+**rap_msu_converter.py**: Script used to convert gene ID between MSU7 to RAP, which can detect you ID type and convert your IDs into another type. Just make sure Python3 is in your PATH and double click your mouse. The results will be stored into the "res." file.
