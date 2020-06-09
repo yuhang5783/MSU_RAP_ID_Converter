@@ -4,16 +4,10 @@
 
 ### File description:
 
-**RAP-MSU_2018-03-29.txt**: This file describe the ID corresponding relationship between rice MSU7 and RAP reference genome (Downloaded from the RAP-DB website https://rapdb.dna.affrc.go.jp/download/irgsp1.html)
+**RAP-MSU_2020-06-03.txt**: This file describe the ID corresponding relationship between rice MSU7 and RAP reference genome (Downloaded from the RAP-DB website https://rapdb.dna.affrc.go.jp/download/irgsp1.html)
 
 **your-id-list-one-gene-per-line.txt**: Input your gene ID to this file.
 
-**result.xls**: This file shows the results.
+**res.\*.xls**: These files shows the results.
 
-**msu2rap-converter.py**: Script used to convert gene ID from MSU7 to RAP.
-
-```python3 msu2rap-converter.py your-id-list-one-gene-per-line.txt > result.xls```
-
-**rap2msu-converter.py**: Script used to convert gene ID from RAP to MSU7.
-
-```python3 rap2msu-converter.py your-id-list-one-gene-per-line.txt > result.xls```
+**rap_msu_converter.py**: Script used to convert gene ID between MSU7 to RAP, which can detect you ID type and convert your IDs into anthor type. Just make sure Python3 is in your PATH and double click your mouse.
